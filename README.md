@@ -1,2 +1,2 @@
-# gaiter_site
-The landing page for all things Gaiter
+# gaitr_site
+The landing page for all things Gaitr
