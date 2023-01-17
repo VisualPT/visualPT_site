@@ -1,2 +1,2 @@
-# gaitr_site
-The landing page for all things Gaitr
+# visualPT_site
+The landing page for all things VisualPT
