@@ -16,7 +16,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Unbounded:wght@400;900&display=swap" rel="stylesheet">
 
-    <title>Gaitr Site</title>
+    <title>VisualPT</title>
 
   
     <style>
@@ -82,7 +82,6 @@
         }
         .column {
             margin: auto;
-            width: 15%;
             padding: 5px;
         }
 
@@ -93,6 +92,21 @@
             display: table;
         }
 
+        .team-container {
+            display: flex;
+            justify-content: center;
+
+            align-items: start;
+        }
+
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            text-align: center;
+            text-wrap: balance;
+        }
     </style>
 </head>
   
@@ -107,9 +121,6 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-item nav-link" href="about_us.html">About Us</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-item nav-link" href="gaitr.html">GaitR</a>
                 </li>
                 <li class="nav-item active">
@@ -123,25 +134,9 @@
             </ul>
         </div>
     </nav>
-    <h1>Accelerate</h1>
-    <div class="row">
-        <div class="column">
-            <img height="500" src="assets/vpt_demoscreen_home.png" alt="Demo Home Screen of VisualPT">
-        </div>
-        <div class="column">
-            <img height="500" src="assets/vpt_demoscreen_tutorial.png" alt="Demo Tutorial Screen of VisualPT">
-        </div>
-        <div class="column">
-            <img height="500" src="assets/vpt_demoscreen_camera.png" alt="Demo Camera Screen of VisualPT">
-        </div>
-        <div class="column">
-            <img height="500" src="assets/vpt_demoscreen_pdf.png" alt="Demo PDF Screen of VisualPT">
-        </div>
-      </div>
-    <h1>Everything in the clinic</h1>
+    <h1>Accelerate Clinical Assessments</h1>
+        <img height="500" src="assets/vpt_demoscreen_home.png" alt="Demo Home Screen of VisualPT">
     <h2>with Artificial Intelligence</h2>
-
-    <a href="about_us.html"><h4>Learn More</h4></a>
    
    <div class="container text-center">
     <div class="col mx-center my-auto p-0"> 
@@ -151,6 +146,75 @@
             </a>
         </div>
         <h6>Coming Soon!</h6>
+    </div>
+
+    <div class="p-4">
+        <h1>Our Mission</h1>
+        <div class="m-0 p-0">
+            <h2>Enhance patient diagnosis by</h2>
+            <h2>turning visual data into usable insight</h2>
+        </div>
+    </div>
+   
+    
+    <div class="p-4">
+        <h1>Our Vision</h1>
+        <div class="m-0 p-0">
+            <h2>We want to build the <a href="https://en.wikipedia.org/wiki/Tricorder" target="_blank">tricorder</a> of the outpatient clinic and use it to free physicians, physical therapists and nurses from the drudgery of documentation.</h2>
+        </div>
+    </div>
+
+    <div class="p-4">
+        <h1>Our Team</h1>
+        <div class="team-container m-0 p-0">
+            <div class="team-member">
+                <img src="assets/tim_headshot.jpeg" alt="Tim Richardson" width="100" height="100">
+                <strong>Tim Richardson</strong>
+                <p>CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/richardson_headshot.jpeg" alt="Charles Richardson" width="100" height="100">
+                <strong>Charles Richardson</strong>
+                <p>Lead Software Engineer and CTO</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/fox_headshot.jpeg" alt="NickFox" width="100" height="100">
+                <strong>Nick Fox</strong>
+                <p>Lead Data Scientist and CDO</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="p-4">
+        <h1>Our Values</h1>
+        <div class="m-0 p-0">
+            <ul>
+                <li>
+                    <strong>Data-driven, analytical</strong> - Visual data is rich and untapped. Better tools are needed. The PT profession currently uses intuitive, manual methods to capture and record this data that are slow and difficult to retrieve. 
+                    We want to use new, data discovery methods to improve physical therapist decision making.
+                </li>
+                <li>
+                    <strong>Empathic, not sympathetic</strong> - “Healthcare is broken” or “US healthcare is too expensive” - it would be easy to fall into existing tropes that judge and criticize (and frequently, politicize) healthcare spending in the United States.
+                     Our team understands healthcare professionals face difficult decisions every day. We want to use data to help them make better decisions.
+                </li>
+                <li>
+                    <strong>Hard on the process; easy on the person</strong> - We're a small team, figuring stuff out in a pretty significant whitespace. We have fun and we enjoy the process.
+                </li>
+            </ul>
+        </div>
+    </div>
+   
+    
+
+    <div class="p-4">
+        <h1>Our Timeline</h1>
+        <div class="m-0 p-0">
+            <h2>Currently Under Development</h2>
+            <h2>Demo available by request</h2>
+            <h2>Public demo on iOS App Store late-Q3 2023</h2>
+            <h2>Market ready by 2024</h2>
+        </div>
     </div>
 </body>
   
